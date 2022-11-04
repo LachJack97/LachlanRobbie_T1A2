@@ -4,11 +4,15 @@
     src: url('/fonts/Exo2-Regular.ttf');
 }
 
+@media only screen and (max-width: 600px) {
+
 body {
     background-color: #4E6677;
     font-family: exo2;
     font-weight: lighter;
     font-size: 16px;
+    height: ;
+	width: auto;
 }
 
 
@@ -84,13 +88,78 @@ h3 {
     
 }
 
-.coderacademy a:hover {
 
-}
 
 .coderacademy a:visited {
-    color: #4E6677;
+    color: #e6af2e;
 }
 
+.socials {
+    width: 11%;
+    position: sticky;
+    bottom: 30px;
+    z-index: 1;
+
+    }
+    
+    .socials a {
+    display: flex;
+    flex-direction: column;
+    margin: 4px 0;
+    }
+    
+    .socials img {
+    height: 35px;
+    width: 35px;
+    }
 
 
+nav { 
+    width: auto;
+    position: sticky;
+    bottom: 30px;
+    right: 30%;
+    }
+    
+    nav .menu {
+    width: 20px;
+    height: 20px;
+    padding: 20px;
+    background-color: lightgrey;
+    }
+
+    .nav-menu {
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+    width: 100%;
+    }
+    
+    .nav-menu #menu-links {
+    display: none;
+    }
+    
+    #menu-links a {
+    background-color: #333;
+    text-decoration: none;
+    color: white;
+    padding: 14px 16px;
+    display: block;
+    width: 100%;
+    
+    }
+    
+    #menu-links a:visted {
+    text-decoration: none;
+    color: white;
+
+    }
+
+    footer {
+    display: flex;
+    color: white;
+    justify-content: center;
+    padding: 10px;
+    background-color: #333;
+    }
+}
