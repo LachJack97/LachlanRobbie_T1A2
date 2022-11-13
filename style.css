@@ -4,6 +4,10 @@
     src: url('/fonts/Exo2-Regular.ttf');
 }
 
+.page-container {
+    position: relative;
+    min-height: 100vh;
+}
 
 
 body {
@@ -63,7 +67,7 @@ body {
 
 nav { 
     top: 0;
-    position: absolute;
+    position: fixed;
     overflow: hidden;
     background-color: #333;
     width: 100%;
@@ -89,6 +93,7 @@ nav {
     }
 
     .content {
+        position: relative;
         margin-top: 60px;
         text-align: center;
         background-color: #333;
@@ -152,6 +157,10 @@ nav {
         margin-right: 100px;
     }
 
+    .break {
+        padding: 10%;
+    }
+
     .blogPreview p {
             margin: 0 50px;
     }
@@ -160,17 +169,47 @@ nav {
         margin: 0 50px;
     }
 
+
+    .project-content {
+        margin-top: 90px;
+    }
+
+    .project-posts {
+        margin: 0 20px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+
+    .projectPagePreview {
+        background-color: #333;
+        margin-top: 50px;
+        height: 400px;
+        border-radius: 30px;
+        width: 400px;
+    }
+
+    .projectPagePreview img {
+        background-color: #333;
+        height: 200px;
+        width: 175px;
+        border: #333 solid 2px;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
     footer {
         display: flex;
-        position: static;
-        bottom: 0;
-        width: 1920px;
-        color: white;
-        margin-top: 100px;
+        position: absolute;
         justify-content: center;
+        bottom: 0;
+        width: 100%;
+        color: white;
         padding: 10px;
         background-color: #333;
     }
+
+
 
     .footerSocials {
         position: absolute;
@@ -218,8 +257,6 @@ nav {
 
 
 @media only screen and (max-width: 600px) {
-
-
 
 .page-header {
     display: flex;
@@ -274,7 +311,7 @@ nav {
     display: none;
 }
 
-h3 {
+.content h3 {
     color: #e6af2e;
     font-weight: lighter;
     font-size: 1.5em;
@@ -383,6 +420,7 @@ nav {
         display: flex;
         justify-content: center;
         margin-top: 15%;
+        margin-left: 0;
         color: #e6af2e;
         letter-spacing: 5px;
         font-size: 2em;
@@ -415,16 +453,49 @@ nav {
 
     .project-content {
         color: #dadff7;
-        margin-top: 10px;
-        padding: 40px;
-        padding-top: 10px;
+        margin-left: 40px;
         position: static;
+        height: 10px;
     }
 
     .project-content p {
-        margin-top: 15px;
-        text-align: center;
-        line-height: 25px;
+        display: none;
+    }
+
+
+    .project-posts {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+
+    .projectPagePreview h3 {
+        color: #e6af2e;
+        font-weight: lighter;
+        font-size: 1.5em;
+        margin-bottom: 2px;
+        margin-right: 90px;
+    }
+
+    .projectPagePreview {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #333;
+        margin-top: 50px;
+        height: 400px;
+        border-radius: 30px;
+        width: 300px;
+    }
+
+    .projectPagePreview img {
+        background-color: #333;
+        height: 200px;
+        width: 175px;
+        border: #333 solid 2px;
+        margin-left: 100px;
+        margin-right: 100px;
     }
 
     .projectPreview {
@@ -460,6 +531,7 @@ nav {
         justify-content: center;
         padding: 10px;
         background-color: #333;
+        width: 100%;
         }
 
 
