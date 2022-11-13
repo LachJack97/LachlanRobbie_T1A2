@@ -826,10 +826,20 @@ body {
 
 
     .footerSocials {
-        position: absolute;
+        display: flex;
+        align-items: center;
+        position: relative;
         left: 0;
         margin-left: 60px;
         margin-top: 7px;
+        z-index: 1;
+    }
+
+    .footerSocials img {
+        display: block;
+        width: 24px;
+        margin-left: 10px;
+
     }
 
     .socials {
@@ -845,9 +855,24 @@ body {
     }
 
     .about-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     margin: 0 10px;
     color: #dadff7;
     padding-bottom: auto;
     margin-bottom: 31%;
+    }
 
+    .about-content a {
+        text-align: center;
+        text-decoration: none;
+        color: #dadff7;
+        padding: 10px;
+        background-color: #333;
+    }
+
+    .about-content a:hover {
+        background-color: #dadff7;
+        color: #4E6677;
     }

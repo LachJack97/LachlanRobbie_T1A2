@@ -60,6 +60,21 @@ The tech stack used is made up primarily of HTML and CSS, all the CSS styling is
 
 
 References:
+
 Blog 1: https://www.pexels.com/photo/person-using-macbook-pro-574077/
+
 Blog 2: https://www.pexels.com/photo/close-up-of-computer-screen-325111/
+
 Blog 3: https://www.pexels.com/photo/person-coding-on-a-macbook-pro-4974912/
+
+Blog 4: https://www.pexels.com/photo/workplace-with-modern-laptop-with-program-code-on-screen-3888151/
+
+Blog 5: https://www.pexels.com/photo/a-person-holding-a-black-keyboard-7988090/
+
+Icons:
+
+LinkedIn Icon: https://www.flaticon.com/free-icon/linkedin_3536505?term=linkedin&page=1&position=1&page=1&position=1&related_id=3536505&origin=search
+
+Instagram: https://www.flaticon.com/free-icon/instagram_2111463?term=instagram&page=1&position=3&page=1&position=3&related_id=2111463&origin=search
+
+GitHub Icon: https://www.flaticon.com/free-icon/github_733553?term=github&page=1&position=5&page=1&position=5&related_id=733553&origin=search
