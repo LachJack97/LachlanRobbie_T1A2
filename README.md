@@ -1,7 +1,7 @@
 
 
 Link To Youtube Presentation: https://youtu.be/i_vSoXrAErc
-Link to Published Website: https://snazzy-speculoos-21c360.netlify.app/
+Link to Published Website: https://6370a75cd8fd82158cbf4e10--snazzy-speculoos-21c360.netlify.app/index.html
 
 
 Purpose:
