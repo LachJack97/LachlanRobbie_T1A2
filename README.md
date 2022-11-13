@@ -1,5 +1,7 @@
 
 
+Link To Youtube Presentation: https://youtu.be/i_vSoXrAErc
+
 Purpose:
 
 The purpose of this website is to serve as an on-going platform where I can constantly make changes and show my progress through my journey to become a full stack web developer. It will allow prospective employers and peers to have a look into projects that I have made or that are currently being built. Alongside this, it will also serve as a platform as to where I can make blog posts and talk about my progress of my studies or even just something else that I may want to write about. 
